@@ -40,7 +40,8 @@
 }
 /* header */
 .header{
-    height:100vh;
+    /* height:100vh; */
+    min-height: 100vh;
     background-image: url("images/developer.png") , url("images/header_bg.png");
     background-repeat:no-repeat;
     background-position:top left,bottom right;
@@ -52,7 +53,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     margin: 0px 40px 0 160px;
-    padding:23px 0;
+    padding:20px 0;
 }
 .nav-title{
     font-weight: 800;
@@ -93,6 +94,12 @@ nav ul li a{
     font-size:20px;
     padding:10px 0;
 }
+.btn{
+    margin-right: 10px;
+}
 .banner-profile-picture{
     width: 350px;
+    max-width: 100%;
+    height: auto;
+    /* height: 200px; */
 }
