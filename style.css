@@ -210,3 +210,7 @@ main section{
 .experience-description , .experience-sub-title{
     color:#757575;
 }
+/* btn-download-cv */
+.btn-download-cv{
+    margin-top: 30px;
+}
